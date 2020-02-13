@@ -18,11 +18,11 @@ echo "   ░   ░   ▒   ▒▒ ░░  ░      ░ ░ ░  ░░ ░▒  �
 echo " ░ ░   ░   ░   ▒   ░      ░      ░   ░  ░  ░          " | lolcat
 echo "       ░       ░  ░       ░      ░  ░      ░          " | lolcat
 echo "------------------------------------------------------" | lolcat
-echo "----------Website : www.LearnTermux.tech--------------" | lolcat
+echo "-----------[Website: www.LearnTermux.tech]------------" | lolcat -as 3
 echo "------------------------------------------------------" | lolcat 
 
 
-echo -e "[1] Moon-buggy \n[2] Tetris   \n[3] Pacman  \n[4] Space- Invaders  \n[5] Snake-Game \n[6] Greed  \n[7] Nethack \n[8] Hangman"  | lolcat
+echo -e "[1] Moon-buggy \n[2] Tetris   \n[3] Pacman  \n[4] Space- Invaders  \n[5] Snake-Game \n[6] Greed  \n[7] Nethack \n[8] Hangman \n[9] About me  \n[0] Enable Arrow Keys"  | lolcat
 
 
 
@@ -50,9 +50,20 @@ case $option in
 ;;
 	"8") cd HangmanPy && python hangman.py
 ;;
-	"9") About Me
+	"9") 
+	About Me:
+	echo "  ___  " | lolcat
+	echo " |[_]| " | lolcat
+	echo " |+ ;|  hjw " | lolcat
+	echo " `---' " | lolcat
+	echo "[-----------------------------------------------] | lolcat -as 3
+	echo " [Name] = [KhanSaad] "
+	echo " [Website] = [www.LearnTermux.Tech] "
+	echo " [Github] = [https://github.com/khansaad1275] "
 ;;
-	"0") Enable Arrow Keys
+	"0")
+	mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings
+	echo " Please Restart the Termux Auto-adjust the Keys " | lolcat -as 3
 ;;
 	*) echo "Invalid Choice !!" | lolcat
 ;;
