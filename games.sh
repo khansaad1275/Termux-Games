@@ -50,24 +50,46 @@ echo -e "Enter a Choice : \c" | lolcat
 read option
 
 case $option in 
-	"1") moon-buggy
+	"1") 
+	echo "Press q on your Keyboard to Exit this game " | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	moon-buggy
+;;
+	"2")
+	echo "Press CTRL + c to Exit this game " | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	bastet
+;;
+	"3")
+	echo "Press q on your Keyboard to Exit this game " | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	pacman
 	sleep 2
-	echo "Press q on your Keyboard to Exit this game "
-	read -p "Press [ENTER] to continue: "
 ;;
-	"2") bastet
+	"4") 
+	echo "Press q on your Keyboard to Exit this game " | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	nInvaders
 ;;
-	"3") pacman
+	"5")
+	echo "Press q on your Keyboard to Exit this game " | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	nsnake
+	sleep 2
 ;;
-	"4") nInvaders
+	"6")
+	echo "Press q on your Keyboard and then y to Exit this game...If this game crash you can Exit the session(its a bug in this game.) " | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	greed
 ;;
-	"5") nsnake
-;;
-	"6") greed
-;;
-	"7") nethack
+	"7")
+	echo "You can press CTRL + c and then give the answer of asked Question to Quit the Games." | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	nethack
 ;;
 	"8") cd HangmanPy && python hangman.py
+	echo "You can Play the game and when you win or lose the game you will be asked to Quit the game or Replay." | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
 ;;
 	"e") 
 	echo "▄▄▄▄·  ▄· ▄▌▄▄▄ .      " | lolcat -s 10000
@@ -97,8 +119,10 @@ case $option in
 	"0")
 	mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings
 	echo "Please Restart to Auto-adjust the Keys"
+	read -p "Press [ENTER] to continue or you can Restart the Terminal(its recommended):"
 ;;
-	*) echo "Invalid Choice !!" | lolcat
-;;
+	*)
+	echo "Invalid Choice !!" | lolcat
+	read -p "Press [ENTER] to continue: "
 esac
 done
