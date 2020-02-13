@@ -62,7 +62,7 @@ case $option in
 	echo "  ___  " | lolcat -as 100
 	echo " |[_]| " | lolcat -as 100
 	echo " |+ ;|  Hello " | lolcat -as 100
-	echo " '---' " | lolcat | lolcat-as 100
+	echo " '---' " | lolcat | lolcat -as 100
 	echo "[------------------------------------------------------]" | lolcat -as 100
 	echo " [Name] = [KhanSaad] " | lolcat -as 25
 	echo ""
