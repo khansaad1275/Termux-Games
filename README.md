@@ -5,7 +5,7 @@ Author: github.com/khansaad1275 <br>
 
 Website: www.Learntermux.tech <br>
 
-Install:
+## Install:
 <br>
 pkg install git -y
 <br>
@@ -18,7 +18,7 @@ chmod +x *
 bash install.sh
 <br>
 
-Run:
+## Run:
 <br>
 bash games.sh
 <br>
