@@ -18,7 +18,7 @@ echo "   ░   ░   ▒   ▒▒ ░░  ░      ░ ░ ░  ░░ ░▒  �
 echo " ░ ░   ░   ░   ▒   ░      ░      ░   ░  ░  ░          " | lolcat
 echo "       ░       ░  ░       ░      ░  ░      ░          " | lolcat
 echo "------------------------------------------------------" | lolcat
-echo "Created By-KhanSaad1275 Website : www.LearnTermux.tech" | lolcat
+echo "----------Website : www.LearnTermux.tech--------------" | lolcat
 echo "------------------------------------------------------" | lolcat 
 
 
