@@ -18,7 +18,7 @@ echo "   ░   ░   ▒   ▒▒ ░░  ░      ░ ░ ░  ░░ ░▒  �
 echo " ░ ░   ░   ░   ▒   ░      ░      ░   ░  ░  ░          " | lolcat
 echo "       ░       ░  ░       ░      ░  ░      ░          " | lolcat
 echo "------------------------------------------------------" | lolcat
-echo "-----------[Website: www.LearnTermux.tech]------------" | lolcat -as 3
+echo "-----------[Website: www.LearnTermux.tech]------------" | lolcat -as 25
 echo "------------------------------------------------------" | lolcat 
 
 
@@ -51,12 +51,12 @@ case $option in
 	"8") cd HangmanPy && python hangman.py
 ;;
 	"9") 
-	About Me:
-		echo "  ___  " | lolcat
+	echo "About Me: "
+	echo "  ___  " | lolcat
 	echo " |[_]| " | lolcat
-	echo " |+ ;|  hjw " | lolcat
+	echo " |+ ;|  Hello " | lolcat
 	echo " '---' " | lolcat
-	echo "[-----------------------------------------------]" | lolcat -as 3
+	echo "[-----------------------------------------------]" | lolcat -as 50
 	echo " [Name] = [KhanSaad] "
 	echo " [Website] = [www.LearnTermux.Tech] "
 	echo " [Github] = [https://github.com/khansaad1275] " 
