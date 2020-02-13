@@ -47,5 +47,5 @@ pkg install git -y && git clone https://github.com/khansaad1275/HangmanPy.git
 figlet Requirements | lolcat && echo Installing..................... | lolcat
 pkg install python -y
 
-echo "Visit www.LearnTermux.tech To learn Basic To Advance About Termux. " | lolcat -a 
+echo Visit www.LearnTermux.tech To learn Basic To Advance About Termux | lolcat -a 
 echo "Type ./game.sh to start the Termux-Games" | lolcat -a
