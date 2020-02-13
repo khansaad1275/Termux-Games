@@ -50,6 +50,10 @@ case $option in
 ;;
 	"8") cd HangmanPy && python hangman.py
 ;;
+	"9") About Me
+;;
+	"0") Enable Arrow Keys
+;;
 	*) echo "Invalid Choice !!" | lolcat
 ;;
 esac
