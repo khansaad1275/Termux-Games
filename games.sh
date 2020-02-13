@@ -96,17 +96,7 @@ case $option in
 ;;
 	"0")
 	mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings
-	echo " Do you want to Restart the Termux to Auto-arrange the Key size?(y/n)" | lolcat -as 3
-	read cho
-	case $cho in
-		"n") echo "Not Restarting :( ,Dont blame me if keys will feel too compact"
-	;;
-		"N") echo "Not Restarting :( ,Dont blame me if keys will feel too compact"
-	;;
-		*)echo "Please open termux after 3 seconds!!" 
-		sleep 3 && logout
-	;;
-	esac
+	echo "Please Restart to Auto-adjust the Keys"
 	*) echo "Invalid Choice !!" | lolcat
 ;;
 esac
