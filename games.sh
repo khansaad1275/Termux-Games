@@ -56,14 +56,17 @@ case $option in
 	echo " |[_]| " | lolcat
 	echo " |+ ;|  Hello " | lolcat
 	echo " '---' " | lolcat
-	echo "[-----------------------------------------------]" | lolcat -as 50
-	echo " [Name] = [KhanSaad] "
-	echo " [Website] = [www.LearnTermux.Tech] "
-	echo " [Github] = [https://github.com/khansaad1275] " 
+	echo "[------------------------------------------------------]" | lolcat -as 100
+	echo " [Name] = [KhanSaad] " | lolcat -as 5
+	echo " [Website] = [www.LearnTermux.Tech] " | lolcat -as 5
+	echo " [Github] = [https://github.com/khansaad1275] " | lolcat -as 5
+	echo "[------------------------------------------------------]" | lolcat -as 100
+	
 ;;
 	"0")
 	mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings
-	echo " Please Restart the Termux Auto-adjust the Keys " | lolcat -as 3
+	echo " Please Restart the Termux to Auto-adjust the Keys " | lolcat -as 3
+	
 ;;
 	*) echo "Invalid Choice !!" | lolcat
 ;;
