@@ -50,16 +50,23 @@ case $option in
 ;;
 	"8") cd HangmanPy && python hangman.py
 ;;
+	"e") 
+	echo "▄▄▄▄·  ▄· ▄▌▄▄▄ .      " | lolcat 1000
+	echo "▐█ ▀█▪▐█▪██▌▀▄.▀·      " | lolcat 1000
+	echo "▐█▀▀█▄▐█▌▐█▪▐▀▀▪▄      " | lolcat 1000
+	echo "██▄▪▐█ ▐█▀·.▐█▄▄▌      "
+	echo "·▀▀▀▀   ▀ •  ▀▀▀  ▀  ▀ "
+;;
 	"9") 
-	echo "About Me: "
-	echo "  ___  " | lolcat
-	echo " |[_]| " | lolcat
-	echo " |+ ;|  Hello " | lolcat
-	echo " '---' " | lolcat
+	echo "𝐀𝐛𝐨𝐮𝐭 𝐦𝐞: " | lolcat
+	echo "  ___  " | lolcat -as 100
+	echo " |[_]| " | lolcat -as 100
+	echo " |+ ;|  Hello " | lolcat 100
+	echo " '---' " | lolcat | lolcat 100
 	echo "[------------------------------------------------------]" | lolcat -as 100
-	echo " [Name] = [KhanSaad] " | lolcat -as 5
-	echo " [Website] = [www.LearnTermux.Tech] " | lolcat -as 5
-	echo " [Github] = [https://github.com/khansaad1275] " | lolcat -as 5
+	echo " [Name] = [KhanSaad] " | lolcat -as 25
+	echo " [Website] = [www.LearnTermux.Tech] " | lolcat -as 25
+	echo " [Github] = [https://github.com/khansaad1275] " | lolcat -as 25
 	echo "[------------------------------------------------------]" | lolcat -as 100
 	
 ;;
