@@ -52,14 +52,14 @@ case $option in
 ;;
 	"9") 
 	About Me:
-	echo "  ___  " | lolcat
+		echo "  ___  " | lolcat
 	echo " |[_]| " | lolcat
 	echo " |+ ;|  hjw " | lolcat
-	echo " `---' " | lolcat
-	echo "[-----------------------------------------------] | lolcat -as 3
+	echo " '---' " | lolcat
+	echo "[-----------------------------------------------]" | lolcat -as 3
 	echo " [Name] = [KhanSaad] "
 	echo " [Website] = [www.LearnTermux.Tech] "
-	echo " [Github] = [https://github.com/khansaad1275] "
+	echo " [Github] = [https://github.com/khansaad1275] " 
 ;;
 	"0")
 	mkdir $HOME/.termux/ ;echo "extra-keys = [['ESC','/','-','HOME','UP','END'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT']]" >> $HOME/.termux/termux.properties && termux-reload-settings
