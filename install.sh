@@ -1,5 +1,3 @@
-export SHELLOPTS
-set -o igncr
 
 echo "Please Don't copy the Code And Give creadits If you are using this project"
 clear
