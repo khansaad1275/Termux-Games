@@ -6,11 +6,15 @@
 
 
 echo "Please Don't copy the Code And Give creadits If you are using this project"
+
+
 clear
+
+
 echo "play Games in Termux by-LearnTermux.tech"
 
 
-apt install ruby -y && gem install lolcat
+apt install ruby && gem install lolcat
 pkg install figlet
 
 figlet bastet | lolcat && echo Installing..................... | lolcat
