@@ -51,11 +51,11 @@ case $option in
 	"8") cd HangmanPy && python hangman.py
 ;;
 	"e") 
-	echo "▄▄▄▄·  ▄· ▄▌▄▄▄ .      " | lolcat 1000
-	echo "▐█ ▀█▪▐█▪██▌▀▄.▀·      " | lolcat 1000
-	echo "▐█▀▀█▄▐█▌▐█▪▐▀▀▪▄      " | lolcat 1000
-	echo "██▄▪▐█ ▐█▀·.▐█▄▄▌      "
-	echo "·▀▀▀▀   ▀ •  ▀▀▀  ▀  ▀ "
+	echo "▄▄▄▄·  ▄· ▄▌▄▄▄ .      " | lolcat -as 1000
+	echo "▐█ ▀█▪▐█▪██▌▀▄.▀·      " | lolcat -as 1000
+	echo "▐█▀▀█▄▐█▌▐█▪▐▀▀▪▄      " | lolcat -as 1000
+	echo "██▄▪▐█ ▐█▀·.▐█▄▄▌      " | lolcat -as 1000
+	echo "·▀▀▀▀   ▀ •  ▀▀▀  ▀  ▀ " | lolcat -as 1000
 ;;
 	"9") 
 	echo "𝐀𝐛𝐨𝐮𝐭 𝐦𝐞: " | lolcat
