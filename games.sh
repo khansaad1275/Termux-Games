@@ -106,13 +106,13 @@ case $option in
 	echo " |[_]| " | lolcat -as 100
 	echo " |+ ;|  Hello " | lolcat -as 100
 	echo " '---' " | lolcat | lolcat -as 100
-	echo "[------------------------------------------------------]" | lolcat -as 100
+	echo "[-----------------------------------------------------]" | lolcat -as 100
 	echo " [Name] = [KhanSaad] " | lolcat -as 50
 	echo ""
 	echo " [Website] = [www.LearnTermux.Tech] " | lolcat -as 50
 	echo ""
 	echo " [Github] = [https://github.com/khansaad1275] " | lolcat -as 50
-	echo "[------------------------------------------------------]" | lolcat -as 100
+	echo "[-----------------------------------------------------]" | lolcat -as 100
 	read -p "Press [ENTER] to continue: "
 
 ;;
