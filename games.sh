@@ -106,9 +106,8 @@ case $option in
 		*)echo "Please open termux after 3 seconds!!" 
 		sleep 3 && logout
 	;;
-
+	esac
 	*) echo "Invalid Choice !!" | lolcat
 ;;
 esac
-
 done
