@@ -37,6 +37,7 @@ echo "[6] Greed " | lolcat -as 1000
 echo "[7] Nethack " | lolcat -as 1000
 echo "[8] Hangman " | lolcat -as 1000
 echo "[9] 2048 " | lolcat -as 1000
+echo "[10] 2048 " | lolcat -as 1000
 echo "[0] Enable Arrow Keys " | lolcat -as 1000
 echo "[a] About me " | lolcat -as 1000
 echo "[e] EXIT "  | lolcat -as 1000
@@ -96,6 +97,11 @@ case $option in
 	echo "Press q and then y to exit the game." | lolcat -a
 	read -p "Press [ENTER] to Start the Game: " | lolcat -a
 	./2048
+;;
+	"10")
+	echo "Press Capital Q to exit the game." | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	nudoku
 ;;
 	"e") 
 	echo "▄▄▄▄·  ▄· ▄▌▄▄▄ .      " | lolcat -s 10000
