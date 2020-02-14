@@ -91,6 +91,11 @@ case $option in
 	echo "You can Play the game and when you win or lose the game you will be asked to Quit the game or Replay." | lolcat -a
 	read -p "Press [ENTER] to Start the Game: " | lolcat -a
 ;;
+	"9")
+	echo "Press q and then y to exit the game." | lolcat -a
+	read -p "Press [ENTER] to Start the Game: " | lolcat -a
+	./2048
+;;
 	"e") 
 	echo "▄▄▄▄·  ▄· ▄▌▄▄▄ .      " | lolcat -s 10000
 	echo "▐█ ▀█▪▐█▪██▌▀▄.▀·      " | lolcat -s 10000
@@ -99,7 +104,7 @@ case $option in
 	echo "·▀▀▀▀   ▀ •  ▀▀▀  ▀  ▀ " | lolcat -s 10000
 	break
 ;;
-	"9")
+	"a")
 	clear
 	echo "𝐀𝐛𝐨𝐮𝐭 𝐦𝐞: " | lolcat
 	echo "  ___  " | lolcat -as 100
