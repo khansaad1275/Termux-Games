@@ -37,7 +37,7 @@ echo "[6] Greed " | lolcat -as 1000
 echo "[7] Nethack " | lolcat -as 1000
 echo "[8] Hangman " | lolcat -as 1000
 echo "[9] 2048 " | lolcat -as 1000
-echo "[10] 2048 " | lolcat -as 1000
+echo "[10] Sudoku " | lolcat -as 1000
 echo "[0] Enable Arrow Keys " | lolcat -as 1000
 echo "[a] About me " | lolcat -as 1000
 echo "[e] EXIT "  | lolcat -as 1000
