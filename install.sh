@@ -23,7 +23,7 @@ pkg install bastet
 figlet Pacman | lolcat && echo Installing..................... | lolcat
 pkg install pacman4console
 
-figlet moon-buggy | lolcat && echo Installing..................... | lolcat
+figlet M-buggy | lolcat && echo Installing..................... | lolcat
 pkg install moon-buggy
 
 figlet invaders | lolcat && echo Installing..................... | lolcat
@@ -44,8 +44,11 @@ pkg install nudoku && apt install nudoku
 figlet Hangman | lolcat && echo Installing..................... | lolcat
 pkg install git -y && git clone https://github.com/khansaad1275/HangmanPy.git
 
-figlet Requirements | lolcat && echo Installing..................... | lolcat
+figlet Python | lolcat && echo Installing..................... | lolcat
 pkg install python -y
+
+figlet "2048" | lolcat && echo Installing..................... | lolcat
+pkg install git -y && pkg install wget -y && pkg install clang -y && wget https://raw.githubusercontent.com/mevdschee/2048.c/master/2048.c && sleep 2 && gcc -o 2048 2048.c
 
 echo "Visit www.LearnTermux.tech To learn Basic To Advance About Termux" | lolcat -a 
 echo "Type ./game.sh to start the Termux-Games" | lolcat -a
