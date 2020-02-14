@@ -14,7 +14,7 @@ clear
 echo "play Games in Termux by-LearnTermux.tech"
 
 
-apt install ruby && gem install lolcat
+apt install ruby -y && gem install lolcat
 pkg install figlet
 
 figlet bastet | lolcat && echo Installing..................... | lolcat
