@@ -16,7 +16,7 @@ visit : https://www.learntermux.tech/2020/02/Termux-Games-Script.html
 <br>
 
 ## Install📲:
-<br>
+
 pkg install git -y
 <br>
 git clone https://github.com/khansaad1275/Termux-Games/
@@ -28,8 +28,11 @@ chmod +x *
 bash install.sh
 <br>
 <br>
+
 ## Run🏃🏻‍♂️:
-<br>
+
 bash games.sh
+
 <br>
+
 💀<h3>Don't copy this code without give me the credits, nerd!</h3> <br>
