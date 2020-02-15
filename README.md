@@ -1,5 +1,6 @@
 # Termux-Games
-Play Games on Termux 🎮<br> 
+Play Games on Termux 🎮<br>
+--------------<strong>[Termux-Games]</strong>-----------------------
 
 Author👨‍💻: https://github.com/khansaad1275 <br>
 
