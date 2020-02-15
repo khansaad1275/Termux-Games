@@ -1,7 +1,7 @@
 # Termux-Games
 Play Games on Termux 🎮<br> 
 
-Author👨‍💻: github.com/khansaad1275 <br>
+Author👨‍💻: https://github.com/khansaad1275 <br>
 
 Website🌎: www.Learntermux.tech <br>
 
