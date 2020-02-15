@@ -33,4 +33,4 @@ bash install.sh
 <br>
 bash games.sh
 <br>
-💀<h4>Don't copy this code without give me the credits, nerd!</h4> <br>
+💀<h3>Don't copy this code without give me the credits, nerd!</h3> <br>
