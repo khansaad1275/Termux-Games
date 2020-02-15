@@ -1,16 +1,16 @@
 # Termux-Games
-Play Games on Termux<br> 
+Play Games on Termux 🎮<br> 
 
-Author: github.com/khansaad1275 <br>
+Author👨‍💻: github.com/khansaad1275 <br>
 
-Website: www.Learntermux.tech <br>
+Website🌎: www.Learntermux.tech <br>
 
-## One command Installation:
+## One command Installation📥:
 visit : https://www.learntermux.tech/2020/02/Termux-Games-Script.html
 
 
 
-## Install:
+## Install📲:
 <br>
 pkg install git -y
 <br>
@@ -23,8 +23,8 @@ chmod +x *
 bash install.sh
 <br>
 
-## Run:
+## Run🏃🏻‍♂️:
 <br>
 bash games.sh
 <br>
-Don't copy this code without give me the credits, nerd! <br>
+💀Don't copy this code without give me the credits, nerd! <br>
