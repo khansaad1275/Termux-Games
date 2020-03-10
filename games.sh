@@ -119,11 +119,13 @@ case $option in
 	echo " |+ ;|  Hello " | lolcat -as 100
 	echo " '---' " | lolcat | lolcat -as 100
 	echo "[-----------------------------------------------------]" | lolcat -as 100
-	echo " [Name] = [KhanSaad] " | lolcat -as 50
+	echo " [ɴᴀᴍᴇ] = [KhanSaad] " | lolcat -as 50
 	echo ""
-	echo " [Website] = [www.LearnTermux.Tech] " | lolcat -as 50
+	echo " [ᴡᴇʙsɪᴛᴇ] = [www.LearnTermux.Tech] " | lolcat -as 50
 	echo ""
-	echo " [Github] = [https://github.com/khansaad1275] " | lolcat -as 50
+	echo " [ɢɪᴛʜᴜʙ] = [https://github.com/khansaad1275] " | lolcat -as 50
+	echo ""
+	echo "[ɪɴsᴛᴀɢʀᴀᴍ]" = [www.instagram.com/𝐬𝐤𝐡𝐚𝐧_𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥/]
 	echo "[-----------------------------------------------------]" | lolcat -as 100
 	read -p "Press [ENTER] to continue: "
 
