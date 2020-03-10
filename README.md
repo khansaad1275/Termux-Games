@@ -10,6 +10,9 @@ Author👨‍💻: https://github.com/khansaad1275 <br>
 
 Website🌎: www.Learntermux.tech <br>
 
+Instagram : https://www.instagram.com/skhan_official/ <br>
+
+
 ## One command Installation📥:
 visit : https://www.learntermux.tech/2020/02/Termux-Games-Script.html
 
