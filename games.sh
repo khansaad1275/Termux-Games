@@ -125,7 +125,7 @@ case $option in
 	echo ""
 	echo " [ɢɪᴛʜᴜʙ] = [https://github.com/khansaad1275] " | lolcat -as 50
 	echo ""
-	echo "[ɪɴsᴛᴀɢʀᴀᴍ]" = [www.instagram.com/𝐬𝐤𝐡𝐚𝐧_𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥/]
+	echo "[ɪɴsᴛᴀɢʀᴀᴍ]" = [www.instagram.com/𝐬𝐤𝐡𝐚𝐧_𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥/] | lolcat -as 50
 	echo "[-----------------------------------------------------]" | lolcat -as 100
 	read -p "Press [ENTER] to continue: "
 
