@@ -20,21 +20,21 @@ visit : https://www.learntermux.tech/2020/02/Termux-Games-Script.html
 
 ## Install📲:
 
-pkg install git -y
+```pkg install git -y```
 <br>
-git clone https://github.com/khansaad1275/Termux-Games/
+```git clone https://github.com/khansaad1275/Termux-Games/```
 <br>
-cd Termux-Games
+```cd Termux-Games```
 <br>
-chmod +x *
+```chmod +x *```
 <br>
-bash install.sh
+```bash install.sh```
 <br>
 <br>
 
 ## Run🏃🏻‍♂️:
 
-bash games.sh
+```bash games.sh```
 
 <br>
 
