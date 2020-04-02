@@ -22,12 +22,13 @@ visit : https://www.learntermux.tech/2020/02/Termux-Games-Script.html
 
 ```pkg install git -y```
 <br>
+<br>
 ```git clone https://github.com/khansaad1275/Termux-Games/```
-<br>
+<br><br>
 ```cd Termux-Games```
-<br>
+<br><br>
 ```chmod +x *```
-<br>
+<br><br>
 ```bash install.sh```
 <br>
 <br>
