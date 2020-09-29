@@ -14,6 +14,7 @@ Instagram : https://www.instagram.com/skhan_official/ <br>
   <img alt="Smiley face" src="https://2.bp.blogspot.com/-lzUEYmUKmh0/XkeoeIS497I/AAAAAAAAJ9c/RUEu7mHxoHQI4Fq8GFJuZI9NgeC9AI3nACK4BGAYYCw/s1600/Termux-Games-by-Learntermux-List.png">
 </p>
 <br>
+
 ## One command Installation📥:
 
 visit : https://www.learntermux.tech/2020/02/Termux-Games-Script.html
