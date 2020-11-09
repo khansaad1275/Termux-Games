@@ -61,6 +61,15 @@ figlet "2048" | lolcat && echo Installing..................... | lolcat
 echo -e "\e[032m"
 pkg install git -y && pkg install wget -y && pkg install clang -y && wget https://raw.githubusercontent.com/mevdschee/2048.c/master/2048.c && sleep 2 && gcc -o 2048 2048.c
 
+cd && echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
+         command_not_found_handle() {
+                 /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+         }
+ fi
+
+ PS1='$'
+alias games="cd && cd Termux-Games && "bash games.sh"" > /data/data/com.termux/files/usr/etc/bash.bashrc
+
 echo "Visit www.LearnTermux.tech To learn Basic To Advance About Termux" | lolcat -a
 echo ""
 echo -e '\033[1mType ./game.sh to start the Termux-Games\033[0m' | lolcat -a
