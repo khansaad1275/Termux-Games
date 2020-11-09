@@ -73,3 +73,4 @@ alias games='cd && cd Termux-Games && bash games.sh'" > /data/data/com.termux/fi
 echo "Visit www.LearnTermux.tech To learn Basic To Advance About Termux" | lolcat -a
 echo ""
 echo -e '\033[1mType ./game.sh to start the Termux-Games\033[0m' | lolcat -a
+echo -e '\033[1mAfter Restaring the Termux you can Type games in termux to Directly start the Games Menu.\033[0m' | lolcat -a
