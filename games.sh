@@ -71,7 +71,7 @@ case $option in
 	"4") 
 	echo "Press q on your Keyboard to Exit this game " | lolcat -a
 	read -p "Press [ENTER] to Start the Game: " | lolcat -a
-	nInvaders
+	ninvaders || nInvaders 
 ;;
 	"5")
 	echo "Press q on your Keyboard to Exit this game " | lolcat -a
