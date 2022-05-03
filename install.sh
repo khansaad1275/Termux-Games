@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Termux-Games
 # Coded by: Khansaad1275 (You dont become a coder by just changing the credits)
