@@ -24,7 +24,7 @@ echo "   ░   ░   ▒   ▒▒ ░░  ░      ░ ░ ░  ░░ ░▒  �
 echo " ░ ░   ░   ░   ▒   ░      ░      ░   ░  ░  ░          " | lolcat -s 100000
 echo "       ░       ░  ░       ░      ░  ░      ░          " | lolcat -s 100000
 echo "------------------------------------------------------" | lolcat
-echo "-----------[Website: www.LearnTermux.tech]------------" | lolcat -as 50
+echo "-----------[  [Author:𝐌𝐃 𝐀𝐁𝐃 𝐓𝐀𝐍𝐕𝐈𝐑]  ]------------" | lolcat -as 50
 echo "------------------------------------------------------" | lolcat 
 
 
@@ -119,13 +119,13 @@ case $option in
 	echo " |+ ;|  Hello " | lolcat -as 100
 	echo " '---' " | lolcat | lolcat -as 100
 	echo "[-----------------------------------------------------]" | lolcat -as 100
-	echo " [ɴᴀᴍᴇ] = [KhanSaad] " | lolcat -as 50
+	echo " [ɴᴀᴍᴇ] = [𝐓𝐀𝐍𝐕𝐈𝐑] " | lolcat -as 50
 	echo ""
 	echo " [ᴡᴇʙsɪᴛᴇ] = [www.LearnTermux.Tech] " | lolcat -as 50
 	echo ""
-	echo " [ɢɪᴛʜᴜʙ] = [https://github.com/khansaad1275] " | lolcat -as 50
+	echo " [ɢɪᴛʜᴜʙ] = [https://github.com/kirebaichodd] " | lolcat -as 50
 	echo ""
-	echo "[ɪɴsᴛᴀɢʀᴀᴍ]" = [www.instagram.com/𝐬𝐤𝐡𝐚𝐧_𝐨𝐟𝐟𝐢𝐜𝐢𝐚𝐥/] | lolcat -as 50
+	echo "[ɪɴsᴛᴀɢʀᴀᴍ]" = [www.instagram.com/your_0_fav/] | lolcat -as 50
 	echo "[-----------------------------------------------------]" | lolcat -as 100
 	read -p "Press [ENTER] to continue: "
 
